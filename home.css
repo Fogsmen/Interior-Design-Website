@@ -18,7 +18,6 @@ font-size: 18px;
 
 .start{
     position: absolute;
-    margin-left: 540px;
     transition: transform 0.5s ease-in;
 }
 .start:hover{
