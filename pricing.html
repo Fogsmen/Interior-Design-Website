@@ -59,6 +59,8 @@
 
                 <button type="button" class="btn btn-primary">Purchase</button>
             </div>
+            <br>
+            <hr>
             <form action="/action_page.php" class="form">
                 <div id="name">
                     <label for="userName">Name:
@@ -72,6 +74,14 @@
                     <div class="mb-3">
                         <label for="textarea" class="form-label">Place your description here;</label>
                         <textarea class="form-control" id="Textarea1" rows="5"></textarea>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label"></label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div id="sending">
+                        <button type="send" id="send-text" class="btn btn-success">Send</button>
                     </div>
                 </div>
             </form>
