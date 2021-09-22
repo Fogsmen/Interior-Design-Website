@@ -27,7 +27,7 @@
                     <li>Ceilling arts/pettern</li>
                     <li>Tiles decorations</li>
                 </ul>
-                SELECT RANGE:<input type="number" id="range" value="number" min="50,000" max="200,000" placeholder="Min:20,000 Max:200,000">
+
                 <button type="button" class="btn btn-secondary">Purchase</button>
             </div>
             <div class="col-md-4">
@@ -41,7 +41,7 @@
                     <li>Kitchen room decor</li>
                     <li>dinning settings</li>
                 </ul>
-                SELECT RANGE:<input type="number" id="range" value="number" min="220,000" max="500,000" placeholder="Min:220,000 Max:500,000">
+
                 <button type="button" class="btn btn-success">Purchase</button>
             </div>
             <div class="col-md-4">
@@ -56,8 +56,60 @@
                     <li>whole house designing</li>
                     <li>Three months allowence</li>
                 </ul>
-                SELECT RANGE:<input type="number" id="range" value="number" min="600,000" max="1,200,000" placeholder="Min:600,000 Max:1,200,000">
+
                 <button type="button" class="btn btn-primary">Purchase</button>
+            </div>
+            <form action="/action_page.php" class="form">
+                <div id="name">
+                    <label for="userName">Name:
+                        <input type="text" name="client-name">
+                    </label>
+                </div>
+                <div id="h3-text">
+                    <h3>Write a description of your designe below;</h3>
+                </div>
+                <div id="text-area">
+                    <div class="mb-3">
+                        <label for="textarea" class="form-label">Place your description here;</label>
+                        <textarea class="form-control" id="Textarea1" rows="5"></textarea>
+                    </div>
+                </div>
+            </form>
+            <br>,<br>
+            <hr>
+            <div id="tablerates">
+                <h2>TABLE RATES</h2>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Conditions</th>
+                            <th scope="col">
+                                <h6>Simple designes</h6>
+                            </th>
+                            <th scope="col">
+                                <h6>Normal upgrade designes</h6>
+                            </th>
+                            <th scope="col">
+                                <h6>Complex designes</h6>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">%Discount-one way payment:</th>
+                            <td>3%</td>
+                            <td>5%</td>
+                            <td>8%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Installments rates:</th>
+                            <td>5%</td>
+                            <td>10%</td>
+                            <td>15%</td>
+                        </tr>
+
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
