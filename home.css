@@ -1,0 +1,17 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    list-style-type:none;
+}
+li{
+    padding: 16px;
+}
+li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+
+}
