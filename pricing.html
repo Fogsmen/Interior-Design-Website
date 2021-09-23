@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="pricing.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="pricing.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">INFLUENZA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav float-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recent Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div>
+    </div>
+    </nav>
+    <div class="row first">
+        <div class="col-md-4 border border-4 border-primary bg-primary text-white">
+            <div id="cpx">
+                <h1 style="text-align: centers;">SIMPLE DESIGNE</h1>
+                <h2>Ksh.0/ $.0</h2>
+                <p>For simple designe;</p>
+                <div>
+                    <ul id="list">
+                        <li>Wall paintings</li>
+                        <li>Wall arts</li>
+                        <li>Wall attatchment</li>
+                        <li>Ceilling arts/pettern</li>
+                        <li>Tiles decorations</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 border border-5 border-success bg-info">
+            <h1>NORMAL UPGRADE DESIGNES</h1>
+            <h2>Ksh.0/ $.0</h2>
+            <p>For normal upgrade designe;</p>
+            <div id="list">
+                <ul id="list">
+                    <li>Wall fittings i.e; carbinates</li>
+                    <li>lightings</li>
+                    <li>Living room furnishing</li>
+                    <li>Kitchen room decor</li>
+                    <li>dinning settings</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 border border-4 border-primary bg-secondary">
+            <h1>COMPLEX DESIGNES</h1>
+            <h2>Ksh.0/ $.0</h2>
+            <p>For complex designe;</p>
+            <div id="list">
+                <ul>
+                    <li>Wall fittings i.e; carbinates</li>
+                    <li>bedroom whole decor</li>
+                    <li>Living room furnishing & settings</li>
+                    <li>Kitchen room decor & small backdoor gazebor</li>
+                    <li>whole house designing</li>
+                    <li>Three months allowence</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <br>
+        <hr>
+        <form action="/action_page.php" class="form">
+
+            <div id="name">
+                <em>Client's name:</em>
+                <label for="userName">Name:
+                        <input type="text" name="client-name" id="client-name">
+                    </label>
+            </div>
+            <div id="h3-text">
+                <h3>Write a description of your designe below;</h3>
+            </div>
+            <div id="text-area">
+                <div class="mb-3">
+                    <label for="textarea" class="form-label">Place your description here;</label>
+                    <textarea class="form-control" id="Textarea1" rows="5"></textarea>
+
+                </div>
+                <div class="mb-3">
+                    <bold>Attatch your preffered image below:</bold>
+                    <label for="formFile" class="form-label"></label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div id="sending">
+                    <button type="send" id="send-text" class="btn btn-success">Send</button>
+                </div>
+                <br>
+                <div id="mode-payment">
+                    <h6>Choose by selecting</h6>
+                    <button type="submit" id="payments" class="btn btn-secondary">mode of payments</button>
+                </div>
+                <div id="payment-form">
+
+                    <div class="row align-items-start">
+                        <div class="col-sm-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <img class="image-responsive" src="https://icon2.cleanpng.com/20180817/wfc/kisspng-logo-paypal-vector-graphics-product-computer-icons-5b770500810755.9060551715345267205285.jpg" alt="paypall" id="paypay">
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">2</label>
+                            </div>
+                            <img class="image-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/M-PESA_LOGO-01.svg/1200px-M-PESA_LOGO-01.svg.png" alt="m-pesa" id="paypay">
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">3</label>
+                            </div>
+                            <img class="image-responsive" src="https://www.pngall.com/wp-content/uploads/2016/05/ATM-Card-PNG-HD.png" alt="debit-credit-card" id="paypay">
+                        </div>
+                        <div class="col-sm-3">
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">4</label>
+                            </div>
+                            <img class="image-responsive" src="https://icons-for-free.com/iconfiles/png/512/amazon+icon+icon-1320194643826829581.png" alt="amazon" id="paypay">
+                        </div>
+                    </div>
+                    <div class="number-button col-sm-2">
+                        <label for="input-button-number">Place payment:
+                                <input type="number" id="price-value" value="number">
+                            </label>
+                    </div>
+                </div>
+                <div id="payments">
+                    <button type="button" class="btn btn-primary" id="btn-pay">PAY</button>
+                </div>
+
+
+            </div>
+        </form>
+        <br>,<br>
+        <hr>
+        <div id="tablerates">
+            <h2>TABLE RATES</h2>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Conditions</th>
+                        <th scope="col">
+                            <h6>Simple designes</h6>
+                        </th>
+                        <th scope="col">
+                            <h6>Normal upgrade designes</h6>
+                        </th>
+                        <th scope="col">
+                            <h6>Complex designes</h6>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">%Discount-one way payment:</th>
+                        <td>3%</td>
+                        <td>5%</td>
+                        <td>8%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Installments rates:</th>
+                        <td>5%</td>
+                        <td>10%</td>
+                        <td>15%</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

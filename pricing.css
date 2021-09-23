@@ -1,0 +1,28 @@
+#paypay {
+    height: 50%;
+    width: 50%;
+}
+
+#payment-form {
+    display: none;
+}
+
+#paypal:hover {
+    border-color: lightseagreen;
+}
+
+.navbar-nav ul {
+    background-color: black;
+}
+
+li {
+    padding: 12px;
+}
+
+.first {
+    margin-top: 100px;
+}
+
+body {
+    margin: 20px;
+}
