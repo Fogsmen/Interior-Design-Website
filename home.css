@@ -9,6 +9,6 @@ li{
     transition: transform 0.5s ease-in;
 }
 .start:hover{
-    transform: scale(1.3)
+    transform: scale(1.4)
  translateY(-10px);
 }
