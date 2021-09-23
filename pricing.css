@@ -1,0 +1,12 @@
+#paypay {
+    height: 50%;
+    width: 50%;
+}
+
+#payment-form {
+    display: none;
+}
+
+#paypal:hover {
+    border-color: lightseagreen;
+}
