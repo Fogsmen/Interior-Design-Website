@@ -16,21 +16,23 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h1>SIMPLE DESIGNE</h1>
-                <h2>Ksh.0/ $.0</h2>
-                <p>For simple designe;</p>
-                <ul>
-                    <li>Wall paintings</li>
-                    <li>Wall arts</li>
-                    <li>Wall attatchment</li>
-                    <li>Ceilling arts/pettern</li>
-                    <li>Tiles decorations</li>
-                </ul>
+            <div class="col-md-4 border border-4 border-primary bg-primary text-white">
+                <div id="cpx">
+                    <h1 style="text-align: centers;">SIMPLE DESIGNE</h1>
+                    <h2>Ksh.0/ $.0</h2>
+                    <p>For simple designe;</p>
+                    <ul>
+                        <li>Wall paintings</li>
+                        <li>Wall arts</li>
+                        <li>Wall attatchment</li>
+                        <li>Ceilling arts/pettern</li>
+                        <li>Tiles decorations</li>
+                    </ul>
+                </div>
 
-                <button type="button" class="btn btn-secondary">Purchase</button>
+                <button type="button" class="btn btn-secondary" id="simple">Purchase</button>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 border border-5 border-success bg-info">
                 <h1>NORMAL UPGRADE DESIGNES</h1>
                 <h2>Ksh.0/ $.0</h2>
                 <p>For normal upgrade designe;</p>
@@ -44,7 +46,7 @@
 
                 <button type="button" class="btn btn-success">Purchase</button>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 border border-4 border-primary bg-secondary">
                 <h1>COMPLEX DESIGNES</h1>
                 <h2>Ksh.0/ $.0</h2>
                 <p>For complex designe;</p>
@@ -62,9 +64,11 @@
             <br>
             <hr>
             <form action="/action_page.php" class="form">
+
                 <div id="name">
+                    <em>Client's name:</em>
                     <label for="userName">Name:
-                        <input type="text" name="client-name">
+                        <input type="text" name="client-name" id="client-name">
                     </label>
                 </div>
                 <div id="h3-text">
@@ -77,6 +81,7 @@
 
                     </div>
                     <div class="mb-3">
+                        <bold>Attatch your preffered image below:</bold>
                         <label for="formFile" class="form-label"></label>
                         <input class="form-control" type="file" id="formFile">
                     </div>
@@ -85,25 +90,51 @@
                     </div>
                     <br>
                     <div id="mode-payment">
+                        <h6>Choose by selecting</h6>
                         <button type="submit" id="payments" class="btn btn-secondary">mode of payments</button>
                     </div>
                     <div id="payment-form">
 
                         <div class="row align-items-start">
                             <div class="col-sm-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
                                 <img class="image-responsive" src="https://icon2.cleanpng.com/20180817/wfc/kisspng-logo-paypal-vector-graphics-product-computer-icons-5b770500810755.9060551715345267205285.jpg" alt="paypall" id="paypay">
                             </div>
                             <div class="col-sm-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">2</label>
+                                </div>
                                 <img class="image-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/M-PESA_LOGO-01.svg/1200px-M-PESA_LOGO-01.svg.png" alt="m-pesa" id="paypay">
                             </div>
 
                             <div class="col-sm-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">3</label>
+                                </div>
                                 <img class="image-responsive" src="https://www.pngall.com/wp-content/uploads/2016/05/ATM-Card-PNG-HD.png" alt="debit-credit-card" id="paypay">
                             </div>
                             <div class="col-sm-3">
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">4</label>
+                                </div>
                                 <img class="image-responsive" src="https://icons-for-free.com/iconfiles/png/512/amazon+icon+icon-1320194643826829581.png" alt="amazon" id="paypay">
                             </div>
                         </div>
+                        <div class="number-button col-sm-2">
+                            <label for="input-button-number">Place payment:
+                                <input type="number" id="price-value" value="number">
+                            </label>
+                        </div>
+                    </div>
+                    <div id="payments">
+                        <button type="button" class="btn btn-primary" id="btn-pay">PAY</button>
                     </div>
 
 
