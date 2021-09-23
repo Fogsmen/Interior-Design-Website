@@ -26,8 +26,10 @@ This website allows the customers to:
   ![Image](./assets/demo.png)
 
 ## Setup instructions
-* Clone the program from [Online repo](https://github.com/valentine-ochieng/Interior-Design-Website)
-* Click on the green button to clone or download
+* Clone the program from [Online repo](https://github.com/valentine-ochieng/Interior-Design-Website).
+* Click on the green button to clone or download.
+* Install a text-editor preferably VScode for writing the HTML, CSS, and a README document.
+* Ensure you have an up-to-date terminal for writing CLIs and navigating the directories and adding commiting and pushing the files and progress so far to the git and GitHub.
 
 
 
