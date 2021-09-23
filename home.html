@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+    <!---navigation bar-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">INFLUENZA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +46,7 @@
    
         
     <!--landing page-->
+<div class="landing-page" style="background-color: lightgray;">
     <div class="container d-flex justify-content-center">
         <div id="menu main" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -101,8 +102,29 @@
             </a>
         </div>
     </div><br><br>
+</div>
+
+<!--log in form-->
+<div class="container">
+    <div class="jumbotron text-center" style="width: 400px;">
+        <div class="col-sm">
+            <h1>Login Form</h1>
+            <form action="#">
+            <img src="assets/icons8-user-24.png" alt="avatar" class="src">
+           Username: <br><input type="text" name="user" id="user" required><br><br>
+           Password: <br><input type="password" name="pass" id="pass" required><br><br>
+           <input type="checkbox" name="check" id="check">Remember me <br><br>
+           <button class = "btn btn-success" type="submit">login</button>
+       <button class = "btn btn-danger"  type="reset">Cancel</button><br><br>
+       <p>New around here? <a href="#">Sign Up</a></p>
+    <a href="#">Forgot password?</a>
+</form>
+</div>
+    </div>
+</div>
 
 
+  <!--scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
